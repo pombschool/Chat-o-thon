@@ -5,8 +5,10 @@ body {
 }
 
 body {
-    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
-    background-size: cover;
+    /* background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    background-size: cover; */
+    background-color: #0a73aa;
+    transition: background-color 1s ease-in-out;
 }
 
 .header {
@@ -34,7 +36,7 @@ body {
     border-radius: 40px;
 }
 
-#login_button {
+#login_button, #signUpButton {
     width: 80%;
     border-radius: 15px;
 }
@@ -104,4 +106,8 @@ body {
 .signUpLink {
     padding: 0px;
     font-size: large;
+}
+
+#signUp {
+    display: none;
 }

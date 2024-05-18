@@ -27,20 +27,27 @@
                 <div class="form-group">
                     <label>User Name:</label>
                     <input type="text" id="user_name" class="form-control" placeholder="Enter Username">
+                    <br>
+                    <label>Password: </label>
+                    <input type="text" id="passwordSignUp" class="form-control" placeholder="Enter Password">
                 </div>
-                <button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
+                <button id="login_button" class="btn btn-primary" onclick="logIn()">Log in</button>
                 <br><br>
             </section>
             <section id="signUp">
                 <h3>Sign Up</h3>
+                <h4>Want to go back to login? Click <a> <button class="btn btn-link signUpLink"
+                    onclick="showLogin()">here</button></a>
+        </h4>
                 <div class="form-group">
                     <label>Enter Your Chosen Username: </label>
                     <input type="text" id="userNameSignUp" class="form-control" placeholder="Enter Username">
                     <br>
                     <label>Enter Your Chosen Password: </label>
                     <input type="text" id="passwordSignUp" class="form-control" placeholder="Enter Password">
-                    <br><br>
                 </div>
+                <button id="signUpButton" class="btn btn-primary" onclick="adduser()">Sign up</button>
+                <br><br>
             </section>
         </div>
 

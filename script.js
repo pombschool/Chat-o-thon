@@ -5,5 +5,11 @@ function adduser() {
 }
 
 function showSignUp() {
-    
+    document.getElementById("signUp").style.display = "inline";
+    document.getElementById("login").style.display = "none";
+}
+
+function showLogin() {
+    document.getElementById("signUp").style.display = "none";
+    document.getElementById("login").style.display = "inline";
 }
