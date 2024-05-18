@@ -16,23 +16,34 @@
 <body>
     <center>
         <h1 class="header">
-            Kwitter <sup>
-                <img src="m2.png">
-            </sup>
+            Chat-o-thon
         </h1>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
-            <img src="logo.png" class="logo">
-            <h3>See what is happening in the world right now</h3>
-            <h4>Join Kwitter today</h4>
-            <div class="form-group">
-                <label>User Name:</label>
-                <input type="text" id="user_name" class="form-control" placeholder="Enter Username">
-            </div>
-            <button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
-            <br><br>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div" style="padding-top: 10px;">
+            <section id="login">
+                <h3>Log In</h3>
+                <h4>Don't have an account? Click <a> <button class="btn btn-link signUpLink"
+                            onclick="showSignUp()">here</button></a>
+                </h4>
+                <div class="form-group">
+                    <label>User Name:</label>
+                    <input type="text" id="user_name" class="form-control" placeholder="Enter Username">
+                </div>
+                <button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
+                <br><br>
+            </section>
+            <section id="signUp">
+                <h3>Sign Up</h3>
+                <div class="form-group">
+                    <label>Enter Your Chosen Username: </label>
+                    <input type="text" id="userNameSignUp" class="form-control" placeholder="Enter Username">
+                    <br>
+                    <label>Enter Your Chosen Password: </label>
+                    <input type="text" id="passwordSignUp" class="form-control" placeholder="Enter Password">
+                    <br><br>
+                </div>
+            </section>
         </div>
-        <a href="https://academyoffice79.github.io/Constellations/"> <button class="btn btn-primary">Back to help
-                page.</button></a>
+
     </center>
 </body>
 <script src="script.js"></script>

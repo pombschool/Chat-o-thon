@@ -3,3 +3,7 @@ function adduser() {
     localStorage.setItem("username", username);
     window.location = "home.html";
 }
+
+function showSignUp() {
+    
+}
